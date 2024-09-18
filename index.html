@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section class="flex justify-center items-center h-screen">
+      <div class="card space-y-5">
+        <p class="text-center text-2xl">Count :<span id="count"> 0</span></p>
+        <div class="">
+          <button id="increase-button" class="btn btn-accent">
+            Increase [+]
+          </button>
+          <button id="decrease-button" class="btn btn-accent">
+            Decrease [-]
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="counter.js"></script>
+  </body>
+</html>
